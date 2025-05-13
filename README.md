@@ -102,7 +102,7 @@ philosophers/
 1. **Clone the Repository:**
 
    ```sh
-   git clone https://github.com/yourusername/philosophers.git
+   git clone https://github.com/marco-ht/philosophers.git
    ```
 
 2. **Build the Project:**
