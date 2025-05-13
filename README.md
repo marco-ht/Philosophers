@@ -76,7 +76,7 @@ In this project, a number of philosophers sit around a table and alternate betwe
 ### Program: `philo_bonus`
 
 - Uses processes instead of threads
-- Forks are represented by semaphores instead of individual mutexes
+- Forks are represented by a semaphore instead of individual mutexes
 - The behavior and arguments are the same as in the mandatory part
 
 **Additional Rules:**
@@ -103,7 +103,6 @@ philosophers/
 
    ```sh
    git clone https://github.com/yourusername/philosophers.git
-   cd philosophers/philo
    ```
 
 2. **Build the Project:**
@@ -111,6 +110,7 @@ philosophers/
    Use the provided Makefile to compile your source files:
 
    ```sh
+   cd philosophers/philo
    make
    ```
 
